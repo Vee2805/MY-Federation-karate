@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Athletes & Rankings - Rwanda Karate Federation</title>
+  <meta name="description" content="National athlete rankings, profiles, and standings for Rwanda karate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="event-countdown">
+        <span class="event-name">🥋 National Karate Championship 2026 — Kigali, Rwanda</span>
+        <div class="countdown-units">
+          <div class="countdown-unit"><span class="number" id="countdown-days">00</span><span class="label">Days</span></div>
+          <div class="countdown-unit"><span class="number" id="countdown-hours">00</span><span class="label">Hours</span></div>
+          <div class="countdown-unit"><span class="number" id="countdown-mins">00</span><span class="label">Mins</span></div>
+          <div class="countdown-unit"><span class="number" id="countdown-secs">00</span><span class="label">Secs</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav-wrapper">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">RKF</div>
+          <div class="logo-text">
+            <span class="name">FERWAKA</span>
+            <span class="subtitle">Rwanda Karate Federation</span>
+          </div>
+        </a>
+        <div class="nav-menu">
+          <button class="mobile-close">✕</button>
+          <a href="index.html">Home</a>
+          <a href="association.html">Association</a>
+          <a href="events.html">Events</a>
+          <a href="athletes.html">Athletes</a>
+          <a href="clubs.html">Clubs</a>
+          <a href="news.html">News</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-right">
+          <button class="nav-search-btn" title="Search">🔍</button>
+          <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="nav-overlay"></div>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Athletes & Rankings</h1>
+      <p class="breadcrumb"><a href="index.html">Home</a> / Athletes</p>
+    </div>
+  </section>
+
+  <!-- Featured Athletes -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Featured Athletes</h2>
+        <p>Meet Rwanda's top karate athletes</p>
+      </div>
+
+      <div class="athletes-grid">
+        <div class="athlete-card fade-in">
+          <div class="athlete-card-top">
+            <div class="avatar">JM</div>
+            <h3>Jean-Pierre Mugisha</h3>
+            <p class="category">Kumite -75kg · Senior</p>
+          </div>
+          <div class="athlete-card-stats">
+            <div><span class="stat-num">12</span><span class="stat-label">Gold</span></div>
+            <div><span class="stat-num">5</span><span class="stat-label">Silver</span></div>
+            <div><span class="stat-num">3</span><span class="stat-label">Bronze</span></div>
+          </div>
+          <div class="athlete-card-bottom">
+            <span class="ranking-badge">🏅 Rank #1</span>
+            <span>Kigali Karate Club</span>
+          </div>
+        </div>
+
+        <div class="athlete-card fade-in">
+          <div class="athlete-card-top">
+            <div class="avatar">EN</div>
+            <h3>Emmanuel Niyonzima</h3>
+            <p class="category">Kumite -67kg · Senior</p>
+          </div>
+          <div class="athlete-card-stats">
+            <div><span class="stat-num">9</span><span class="stat-label">Gold</span></div>
+            <div><span class="stat-num">7</span><span class="stat-label">Silver</span></div>
+            <div><span class="stat-num">4</span><span class="stat-label">Bronze</span></div>
+          </div>
+          <div class="athlete-card-bottom">
+            <span class="ranking-badge">🏅 Rank #2</span>
+            <span>Musanze Dojo</span>
+          </div>
+        </div>
+
+        <div class="athlete-card fade-in">
+          <div class="athlete-card-top" style="background: linear-gradient(135deg, #e30613, #b30510);">
+            <div class="avatar">GU</div>
+            <h3>Grace Uwamahoro</h3>
+            <p class="category">Kumite -61kg · Women Senior</p>
+          </div>
+          <div class="athlete-card-stats">
+            <div><span class="stat-num">10</span><span class="stat-label">Gold</span></div>
+            <div><span class="stat-num">6</span><span class="stat-label">Silver</span></div>
+            <div><span class="stat-num">2</span><span class="stat-label">Bronze</span></div>
+          </div>
+          <div class="athlete-card-bottom">
+            <span class="ranking-badge">🏅 Rank #1 (W)</span>
+            <span>Huye Karate Academy</span>
+          </div>
+        </div>
+
+        <div class="athlete-card fade-in">
+          <div class="athlete-card-top" style="background: linear-gradient(135deg, #28a745, #1e7e34);">
+            <div class="avatar">PH</div>
+            <h3>Patrick Habimana</h3>
+            <p class="category">Kata Individual · Senior</p>
+          </div>
+          <div class="athlete-card-stats">
+            <div><span class="stat-num">8</span><span class="stat-label">Gold</span></div>
+            <div><span class="stat-num">4</span><span class="stat-label">Silver</span></div>
+            <div><span class="stat-num">6</span><span class="stat-label">Bronze</span></div>
+          </div>
+          <div class="athlete-card-bottom">
+            <span class="ranking-badge">🏅 Rank #1 Kata</span>
+            <span>Rubavu Warriors</span>
+          </div>
+        </div>
+
+        <div class="athlete-card fade-in">
+          <div class="athlete-card-top" style="background: linear-gradient(135deg, #e30613, #b30510);">
+            <div class="avatar">DN</div>
+            <h3>Diane Nishimwe</h3>
+            <p class="category">Kumite -55kg · Women Senior</p>
+          </div>
+          <div class="athlete-card-stats">
+            <div><span class="stat-num">7</span><span class="stat-label">Gold</span></div>
+            <div><span class="stat-num">5</span><span class="stat-label">Silver</span></div>
+            <div><span class="stat-num">3</span><span class="stat-label">Bronze</span></div>
+          </div>
+          <div class="athlete-card-bottom">
+            <span class="ranking-badge">🏅 Rank #2 (W)</span>
+            <span>Kigali Karate Club</span>
+          </div>
+        </div>
+
+        <div class="athlete-card fade-in">
+          <div class="athlete-card-top">
+            <div class="avatar">SN</div>
+            <h3>Samuel Ntakirutimana</h3>
+            <p class="category">Kumite -84kg · Senior</p>
+          </div>
+          <div class="athlete-card-stats">
+            <div><span class="stat-num">6</span><span class="stat-label">Gold</span></div>
+            <div><span class="stat-num">8</span><span class="stat-label">Silver</span></div>
+            <div><span class="stat-num">5</span><span class="stat-label">Bronze</span></div>
+          </div>
+          <div class="athlete-card-bottom">
+            <span class="ranking-badge">🏅 Rank #3</span>
+            <span>Gasabo Fighters</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full Rankings Table -->
+  <section class="section section-light" id="ranking">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>National Rankings 2026</h2>
+        <p>Official FERWAKA national rankings — updated March 2026</p>
+      </div>
+
+      <div class="events-tabs ranking-tabs">
+        <button class="tab-btn active" data-tab="rank-kumite-m">Kumite Men</button>
+        <button class="tab-btn" data-tab="rank-kumite-w">Kumite Women</button>
+        <button class="tab-btn" data-tab="rank-kata">Kata</button>
+        <button class="tab-btn" data-tab="rank-junior">Junior</button>
+      </div>
+
+      <!-- Kumite Men Rankings -->
+      <div class="tab-content active" id="rank-kumite-m">
+        <div class="ranking-section">
+          <table class="ranking-table">
+            <thead>
+              <tr><th>Rank</th><th>Athlete</th><th>Category</th><th>Club</th><th>Province</th><th>Points</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="rank rank-1">1</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">JM</div>Jean-Pierre Mugisha</div></td><td>-75kg</td><td>Kigali Karate Club</td><td>Kigali</td><td><strong>2,450</strong></td></tr>
+              <tr><td><span class="rank rank-2">2</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">EN</div>Emmanuel Niyonzima</div></td><td>-67kg</td><td>Musanze Dojo</td><td>Northern</td><td><strong>2,180</strong></td></tr>
+              <tr><td><span class="rank rank-3">3</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">SN</div>Samuel Ntakirutimana</div></td><td>-84kg</td><td>Gasabo Fighters</td><td>Kigali</td><td><strong>1,950</strong></td></tr>
+              <tr><td><span class="rank">4</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">JN</div>Jacques Nshimiyimana</div></td><td>-60kg</td><td>Huye Karate Academy</td><td>Southern</td><td><strong>1,820</strong></td></tr>
+              <tr><td><span class="rank">5</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">AM</div>Aimé Mugabo</div></td><td>-75kg</td><td>Rubavu Warriors</td><td>Western</td><td><strong>1,690</strong></td></tr>
+              <tr><td><span class="rank">6</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">FU</div>Fidèle Uwizeye</div></td><td>+84kg</td><td>Nyagatare Lions</td><td>Eastern</td><td><strong>1,580</strong></td></tr>
+              <tr><td><span class="rank">7</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">OB</div>Olivier Bizimana</div></td><td>-67kg</td><td>Kigali Karate Club</td><td>Kigali</td><td><strong>1,450</strong></td></tr>
+              <tr><td><span class="rank">8</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">CM</div>Clement Munyemana</div></td><td>-60kg</td><td>Musanze Dojo</td><td>Northern</td><td><strong>1,380</strong></td></tr>
+              <tr><td><span class="rank">9</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">BH</div>Bosco Hakizimana</div></td><td>-84kg</td><td>Rubavu Warriors</td><td>Western</td><td><strong>1,250</strong></td></tr>
+              <tr><td><span class="rank">10</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">TM</div>Thierry Munyaneza</div></td><td>-75kg</td><td>Rwamagana United</td><td>Eastern</td><td><strong>1,180</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Kumite Women Rankings -->
+      <div class="tab-content" id="rank-kumite-w">
+        <div class="ranking-section">
+          <table class="ranking-table">
+            <thead>
+              <tr><th>Rank</th><th>Athlete</th><th>Category</th><th>Club</th><th>Province</th><th>Points</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="rank rank-1">1</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">GU</div>Grace Uwamahoro</div></td><td>-61kg</td><td>Huye Karate Academy</td><td>Southern</td><td><strong>2,050</strong></td></tr>
+              <tr><td><span class="rank rank-2">2</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">DN</div>Diane Nishimwe</div></td><td>-55kg</td><td>Kigali Karate Club</td><td>Kigali</td><td><strong>1,780</strong></td></tr>
+              <tr><td><span class="rank rank-3">3</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">JM</div>Jeanne Mukankusi</div></td><td>-68kg</td><td>Gasabo Fighters</td><td>Kigali</td><td><strong>1,620</strong></td></tr>
+              <tr><td><span class="rank">4</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">CU</div>Carine Uwimana</div></td><td>-50kg</td><td>Musanze Dojo</td><td>Northern</td><td><strong>1,480</strong></td></tr>
+              <tr><td><span class="rank">5</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">AN</div>Ange Niyigena</div></td><td>+68kg</td><td>Rubavu Warriors</td><td>Western</td><td><strong>1,350</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Kata Rankings -->
+      <div class="tab-content" id="rank-kata">
+        <div class="ranking-section">
+          <table class="ranking-table">
+            <thead>
+              <tr><th>Rank</th><th>Athlete</th><th>Category</th><th>Club</th><th>Province</th><th>Points</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="rank rank-1">1</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">PH</div>Patrick Habimana</div></td><td>Kata Individual (M)</td><td>Rubavu Warriors</td><td>Western</td><td><strong>1,920</strong></td></tr>
+              <tr><td><span class="rank rank-2">2</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">MN</div>Marie Nyiraneza</div></td><td>Kata Individual (W)</td><td>Kigali Karate Club</td><td>Kigali</td><td><strong>1,750</strong></td></tr>
+              <tr><td><span class="rank rank-3">3</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">RS</div>Robert Sibomana</div></td><td>Kata Individual (M)</td><td>Huye Karate Academy</td><td>Southern</td><td><strong>1,580</strong></td></tr>
+              <tr><td><span class="rank">4</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">VK</div>Vestine Kamaliza</div></td><td>Kata Individual (W)</td><td>Musanze Dojo</td><td>Northern</td><td><strong>1,420</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Junior Rankings -->
+      <div class="tab-content" id="rank-junior">
+        <div class="ranking-section">
+          <table class="ranking-table">
+            <thead>
+              <tr><th>Rank</th><th>Athlete</th><th>Category</th><th>Club</th><th>Province</th><th>Points</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="rank rank-1">1</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">AI</div>Alain Iraguha</div></td><td>Kumite -61kg (Jr)</td><td>Kigali Karate Club</td><td>Kigali</td><td><strong>980</strong></td></tr>
+              <tr><td><span class="rank rank-2">2</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">SU</div>Sandra Umutoni</div></td><td>Kumite -53kg (Jr W)</td><td>Gasabo Fighters</td><td>Kigali</td><td><strong>920</strong></td></tr>
+              <tr><td><span class="rank rank-3">3</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">EH</div>Eric Habiyaremye</div></td><td>Kata (Jr)</td><td>Musanze Dojo</td><td>Northern</td><td><strong>850</strong></td></tr>
+              <tr><td><span class="rank">4</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">PU</div>Pascaline Uwineza</div></td><td>Kumite -47kg (Jr W)</td><td>Huye Karate Academy</td><td>Southern</td><td><strong>780</strong></td></tr>
+              <tr><td><span class="rank">5</span></td><td><div class="athlete-name-cell"><div class="athlete-avatar">DM</div>Daniel Mugisha</div></td><td>Kumite -55kg (Jr)</td><td>Rwamagana United</td><td>Eastern</td><td><strong>720</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo">
+            <div class="logo-icon">RKF</div>
+            <div class="logo-text">
+              <span class="name" style="color:#fff">FERWAKA</span>
+              <span class="subtitle">Rwanda Karate Federation</span>
+            </div>
+          </div>
+          <p>The Rwanda Karate Federation (FERWAKA) is the governing body for karate in Rwanda.</p>
+          <div class="footer-social">
+            <a href="#" title="Facebook">📘</a>
+            <a href="#" title="Instagram">📷</a>
+            <a href="#" title="X / Twitter">🐦</a>
+            <a href="#" title="YouTube">▶️</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="association.html">Association</a>
+            <a href="events.html">Events</a>
+            <a href="athletes.html">Athletes & Rankings</a>
+            <a href="clubs.html">Clubs & Dojos</a>
+            <a href="news.html">News Center</a>
+          </div>
+        </div>
+        <div>
+          <h4>Events</h4>
+          <div class="footer-links">
+            <a href="events.html">National Championship</a>
+            <a href="events.html">Youth League</a>
+            <a href="events.html">East African Open</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="contact.html">📍 Kigali, Rwanda</a>
+            <a href="mailto:info@ferwaka.rw">📧 info@ferwaka.rw</a>
+            <a href="tel:+250788000000">📞 +250 788 000 000</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Rwanda Karate Federation (FERWAKA). All Rights Reserved. 🇷🇼</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" title="Back to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
