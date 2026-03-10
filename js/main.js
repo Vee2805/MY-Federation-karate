@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // ---- Countdown Timer ----
   function updateCountdown() {
-    // Next event: Rwanda National Karate Championship 2026 - April 15, 2026
-    const eventDate = new Date('2026-04-15T09:00:00');
+    // Next event: Kenya National Karate Championship 2026 - March 27, 2026
+    const eventDate = new Date('2026-03-27T09:00:00');
     const now = new Date();
     const diff = eventDate - now;
 
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const searchBtn = document.querySelector('.nav-search-btn');
   if (searchBtn) {
     searchBtn.addEventListener('click', function () {
-      const query = prompt('Search Rwanda Karate Federation:');
+      const query = prompt('Search Kenya Karate Federation:');
       if (query && query.trim()) {
         alert(`Search results for "${query}" - Feature coming soon!`);
       }
