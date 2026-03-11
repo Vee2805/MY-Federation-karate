@@ -1,5 +1,5 @@
 /* ============================================
-   RWANDA KARATE FEDERATION - JavaScript
+   MY FEDERATION OF KARATE - JavaScript
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const searchBtn = document.querySelector('.nav-search-btn');
   if (searchBtn) {
     searchBtn.addEventListener('click', function () {
-      const query = prompt('Search Kenya Karate Federation:');
+      const query = prompt('Search My Federation of Karate:');
       if (query && query.trim()) {
         alert(`Search results for "${query}" - Feature coming soon!`);
       }
